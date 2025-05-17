@@ -1,5 +1,5 @@
 package com.joserosano
 
 fun main() {
-    println("¡Hola Mundo desde Kotlin en Docker!")
+    println("Hello World from Kotlin in Docker!")
 }
