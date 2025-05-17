@@ -22,7 +22,7 @@ RUN gradle build -x test
 
 # --- Etapa 2: Ejecución (Runtime) ---
 # Usamos una imagen base ligera con solo Java Runtime Environment (JRE) de OpenJDK 21.
-FROM amazoncorretto:8u452-alpine3.21-jre AS runtime
+FROM eclipse-temurin:21-jre-alpine AS runtime
 
 # Establecemos el directorio de trabajo para esta etapa final
 WORKDIR /app
