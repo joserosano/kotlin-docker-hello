@@ -5,16 +5,23 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Ignora toda la carpeta de configuración de IntelliJ
+.idea/
+
+# Archivos de módulo de IntelliJ. A veces se versionan, a veces no.
+# Si trabajas solo o los módulos se regeneran fácilmente, puedes ignorarlos.
+# Si defines estructuras de módulo complejas que otros necesitan, se versionan.
+# Por ahora, para simplificar, podemos ignorarlos o dejarlos si IntelliJ los gestiona bien.
 *.iml
+
+# Archivos de configuración de espacio de trabajo específicos del usuario, siempre ignorar.
+*.iws
+
+# Formato de proyecto antiguo de IntelliJ, ignorar.
 *.ipr
+
+# Directorio de salida de compilación de IntelliJ (si no usas la salida de Gradle)
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### Kotlin ###
 .kotlin
